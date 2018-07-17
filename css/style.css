@@ -97,9 +97,17 @@ section#about>img#photo{
 section#about>article.about{
    text-align: left;
    padding: 20px;
-   margin-top: 50px;    
+   margin-top: 50px;
+   margin-bottom: 200px;
 }
 /*section about stop*/
+/*hr start*/
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+/*hr stop*/
 
 /*section skills start*/
 section#skills{
@@ -122,11 +130,82 @@ section#skills>article.skills{
 
 section#skills>div#icon-box>p.icon{
  display: inline-block;
-    padding: 20px;
+ padding: 20px;
+ margin: 40px;
 }
 
 /*section skills stop*/
 
+/*section portfolio start*/
+section#portfolio>h1#portfolio-header{
+    text-align: center;
+}
+
+section#portfolio>h1#portfolio-header>span.portfolio-span{
+     color: #1ac056; 
+}
+
+section#portfolio>div.portfolio{
+    font-size: 0;
+}
+
+section#portfolio>div.portfolio>div.port-item{
+    display: inline-block;
+}
+
+section#portfolio>div.portfolio>div.port-item>p.port-mask{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+section#portfolio>div.portfolio>div#port-item-1{
+    background-image: url(../img/portfolio1.jpg);
+    width: 33.3%;
+}
+
+section#portfolio>div.portfolio>div#port-item-2{
+    background-image: url(../img/portfolio2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33.3%;
+}
+
+section#portfolio>div.portfolio>div#port-item-3{
+    background-image: url(../img/portfolio4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33.3%;
+}
+/*section portfolio stop*/
+
+/*section contact start*/
+section#contact{
+    background-color: #213b50;
+    color: white;
+    width: 100%;
+}
+
+section#contact>div.data{
+    width: 50%;
+    text-align: left;
+    margin-left: 100px;
+}
+
+section#contact>div.data>h1#contact-header{
+    text-align: left;
+}
+section#contact>div.data>p#contact-data>a#mail{
+    color: #1ac056; 
+    
+}
+
+section#contact>div.data>h1#contact-header>span.contact-span{
+     color: #1ac056; 
+}
+/*section contact stop*/
 
 /*General styles stop*/
 
