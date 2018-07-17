@@ -2,7 +2,7 @@
 body {
     background-color: #f9fcfe;
     font-family: 'Lato'; sans-serif;
-    color: black;
+    color: #291f1a;
 }
 /*main-nav start*/
 #main-nav {
@@ -11,7 +11,7 @@ body {
     width: 100%;
     top: 0;
     right: 0;
-    z-index: 100000000; 
+    z-index: 100; 
 }
 #main-nav ul {
     text-align: right;
@@ -47,28 +47,87 @@ header#main-header{
 }
 
 #main-header>div#content{
-    position: absolute;
-    top:50%;
-    transform: translateY(-50%);
     left: 0;
     right: 0;
-    margin: 0 auto;
+    top:50%;
+    transform: translateY(-50%);
+    text-align: center;
     color: white;
+    position: absolute;
 }
 
 #main-header>div#content>h1#name{
     font-size: 150px;
     margin: 0;
+    font-weight: 100;
 }
 
 #main-header>div#content>h1#name>span.green{
    color: #1ac056; 
+    font-weight: 400;
 }
 
 #main-header>div#content>h2#job{
     font-size: 50px;
 }
 /*header stop*/
+
+/*section about start*/
+section#about{
+    background-color: #f9fcfe;
+    font-weight: 300;
+    
+}
+
+section#about>h1#about-header{
+    text-align: center;
+}
+
+section#about>h1#about-header>span.about-span{
+     color: #1ac056; 
+}
+
+section#about>img#photo{
+    max-width: 30%;
+    padding: 50px;
+    margin-right: 100px;
+    float: left;
+}
+
+section#about>article.about{
+   text-align: left;
+   padding: 20px;
+   margin-top: 50px;    
+}
+/*section about stop*/
+
+/*section skills start*/
+section#skills{
+    clear: left;
+    font-weight: 300;
+    text-align: center;
+}
+
+section#skills>h1#skills-header{
+padding: 30px;
+}
+
+section#skills>h1#skills-header>span.skills-span{
+     color: #1ac056; 
+}
+
+section#skills>article.skills{
+   padding: 10px;    
+}
+
+section#skills>div#icon-box>p.icon{
+ display: inline-block;
+    padding: 20px;
+}
+
+/*section skills stop*/
+
+
 /*General styles stop*/
 
 /*Navigation start*/
