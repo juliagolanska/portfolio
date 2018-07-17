@@ -61,22 +61,28 @@
    
    <section id="portfolio">
        <h1 id="portfolio-header">Moje <span class="portfolio-span">umiejętności</span></h1>
-       
-       <div class="portfolio">
+       <div class="portfolios">
             <div id="port-item-1" class="port-item">
-                <p class="port-mask">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est officia impedit illum error, voluptates ratione voluptatibus at nisi dolore ea voluptas aperiam veritatis obcaecati rerum cumque, temporibus minima nihil praesentium!
-                </p>
+                
+                <div class="port-mask">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nisi illum animi quis asperiores obcaecati, ratione natus eos similique aut dignissimos non, voluptatum architecto a consequatur recusandae omnis dolor quos!
+                    </p>
+                </div>
             </div>
-             <div id="port-item-2" class="port-item">
-                <p class="port-mask">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est officia impedit illum error, voluptates ratione voluptatibus at nisi dolore ea voluptas aperiam veritatis obcaecati rerum cumque, temporibus minima nihil praesentium!
-                </p>
+            <div id="port-item-2" class="port-item">
+                <div class="port-mask">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nisi illum animi quis asperiores obcaecati, ratione natus eos similique aut dignissimos non, voluptatum architecto a consequatur recusandae omnis dolor quos!
+                    </p>
+                </div>
             </div>
-             <div id="port-item-3" class="port-item">
-                <p class="port-mask">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est officia impedit illum error, voluptates ratione voluptatibus at nisi dolore ea voluptas aperiam veritatis obcaecati rerum cumque, temporibus minima nihil praesentium!
-                </p>
+            <div id="port-item-3" class="port-item">
+                <div class="port-mask">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nisi illum animi quis asperiores obcaecati, ratione natus eos similique aut dignissimos non, voluptatum architecto a consequatur recusandae omnis dolor quos!
+                    </p>                    
+                </div>
             </div>
         </div>
    </section>
@@ -94,8 +100,16 @@
         </p>
         
      </div>
-     <div id="form">
-         
+     <div class="form">
+         <form action="form.php" method="POST">
+         <label for="name"></label>
+         <input class="input" placeholder="Imię i nazwisko" type="text" name="name"><br>
+         <label for="email"></label>
+         <input class="input" placeholder="E-mail" type="text" name="email"><br>
+         <label for="msg"></label>
+         <textarea class="input" placeholder="Treść wiadomości" name="msg" id="msg" cols="30" rows="10"></textarea>
+         <input type="submit" value="wyślij">
+         </form>
      </div>
    </section>
    
