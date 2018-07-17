@@ -1,0 +1,36 @@
+/*General styles start*/
+body {
+    background-color: #f9fcfe;
+    font-family: 'Lato';
+}
+/*main-navnav star*/
+#main-nav {
+    text-align: right;
+}
+
+#main-nav ul li{
+    display: inline-block;
+    margin: 20px;
+    background-color: fff;
+}
+
+#main-nav ul li a{
+    color: #1ac056;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#main-nav ul li a:hover{
+    color: black;
+}
+
+/*main-navnav stop*/
+
+/*header start*/
+
+/*header stop*/
+/*General styles stop*/
+
+/*Navigation start*/
+
+/*Navigation stop*/
