@@ -1,33 +1,73 @@
 /*General styles start*/
 body {
     background-color: #f9fcfe;
-    font-family: 'Lato';
+    font-family: 'Lato'; sans-serif;
+    color: black;
 }
-/*main-navnav star*/
+/*main-nav start*/
 #main-nav {
     text-align: right;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 100000000; 
+}
+#main-nav ul {
+    text-align: right;
+    margin: 0;
 }
 
-#main-nav ul li{
+#main-nav>ul>li{
     display: inline-block;
-    margin: 20px;
-    background-color: fff;
+    list-style: none;
+    padding: 15px 20px;
 }
 
-#main-nav ul li a{
-    color: #1ac056;
+#main-nav>ul>li>a{
+    color: white;
     text-decoration: none;
-    font-size: 15px;
 }
 
-#main-nav ul li a:hover{
+#main-nav>ul>li>a:hover{
     color: black;
 }
 
-/*main-navnav stop*/
+/*main-nav stop*/
 
 /*header start*/
 
+header#main-header{
+    height: 100vh;
+    background-image: url("../img/header-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+}
+
+#main-header>div#content{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: white;
+}
+
+#main-header>div#content>h1#name{
+    font-size: 150px;
+    margin: 0;
+}
+
+#main-header>div#content>h1#name>span.green{
+   color: #1ac056; 
+}
+
+#main-header>div#content>h2#job{
+    font-size: 50px;
+}
 /*header stop*/
 /*General styles stop*/
 
