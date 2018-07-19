@@ -243,11 +243,12 @@ section#contact>div.data>div#social-media>div.social-media{
     border: solid 1px white;
 }
 
-section#contact>div.data>div#social-media>div.social-media>i[class~="fab"]{
+section#contact>div.data>div#social-media>div.social-media>a>i[class~="fab"]{
     width: 30px;
     height: 25px;
     margin-top: 10px;
     text-align: center;
+    color: white;
 }
 
 /*section contact stop*/
