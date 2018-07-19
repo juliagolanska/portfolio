@@ -188,13 +188,13 @@ section#contact{
     background-color: #213b50;
     color: white;
     width: 100%;
-    display: inline-block;
+    display: flex;
 }
 
 section#contact>div.data{
-    float: left;
     text-align: left;
-    margin-left: 100px;
+    width: 50%;
+    margin-left: 10vw;
 }
 
 section#contact>div.data>h1#contact-header{
@@ -210,13 +210,55 @@ section#contact>div.data>h1#contact-header>span.contact-span{
 }
 
 section#contact>div.form {
-  clear: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: right;
+  width: 50%;
 }
 
-section#contact>div.form>input.input{
+
+
+section#contact>div.form>form>.input{
     background-color:#2b4a64;
+    border: 0px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 15px;
 }
+
+section#contact>div.form>form>input[type="submit"]{
+    background-color: limegreen;
+    color: white;
+    margin-right: 15%;
+}
+
+section#contact>div.data>div#social-media{
+    display: flex;
+    margin-top: 110px;
+}
+
+section#contact>div.data>div#social-media>div.social-media{
+    margin: 20px;
+    border: solid 1px white;
+}
+
+section#contact>div.data>div#social-media>div.social-media>i[class~="fab"]{
+    width: 30px;
+    height: 25px;
+    margin-top: 10px;
+    text-align: center;
+}
+
 /*section contact stop*/
+
+/*footer start*/
+footer {
+    background-color: #192c3c;
+    color: white;
+}
+
+/*footer stop*/
 
 /*General styles stop*/
 
